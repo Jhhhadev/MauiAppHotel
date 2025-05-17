@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.Sobre"
+             BackgroundColor="{StaticResource PrimaryDark}">
+
+
+    <VerticalStackLayout 
+        Padding="20" Spacing="20"
+        VerticalOptions="Center"
+        BackgroundColor="{StaticResource PrimaryDark}">
+
+    
+    <Label Text="Sobre"
+               FontSize="36"
+               FontAttributes="Bold"
+               TextColor="Black"
+               FontFamily="SpaceGrotesk"
+               HorizontalTextAlignment="Center" />
+
+    <Label Text="Site desenvolvido por:"
+               FontSize="20"
+               TextColor="Black"
+               FontFamily="SpaceGrotesk"
+               HorizontalTextAlignment="Center" />
+
+    <Label Text="Jhade Alves Dumont"
+               FontSize="22"
+               TextColor="Black"
+               FontFamily="SpaceGrotesk"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center" />
+
+    <Label Text="Data:"
+               FontSize="20"
+               TextColor="Black"
+               FontFamily="SpaceGrotesk"
+               HorizontalTextAlignment="Center" />
+
+    <Label Text="17/05/2025"
+               FontSize="22"
+               TextColor="Black"
+               FontFamily="SpaceGrotesk"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center" />
+
+    <Button Text="Voltar ao Início"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White"
+                CornerRadius="12"
+                FontFamily="SpaceGrotesk"
+                Padding="10,5"
+                HorizontalOptions="Center"
+                Clicked="OnVoltarInicioClicked"/>
+    </VerticalStackLayout>
+
+</ContentPage>
+
+
+
